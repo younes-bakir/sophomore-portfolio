@@ -1,0 +1,81 @@
+<!--
+Younes Bakir
+5/26/26
+Portfolio
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sophomore Portfolio</title>
+    <link href="styleSoph.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="navbar">
+        <nav>
+            <a class="nav-link" href="index.html">Freshman</a>
+            <a class="nav-link" href="sophomore.html">Sophomore</a>
+            <a class="nav-link" href="#">Junior</a>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="hero">
+        <h1>Younes Bakir's Portfolio (Sophomore)</h1>
+        <p>I'm a Sophomore as of the 2025-2026 school year at the Morris County School of Technology. I'm skilled in repairing & building computers and working with operating systems. In the Computer & Information Sciences field, I'm currently unsure of what I'd like to do. I'm torn between cybersecurity and Information Technology, but I'm sure the next time you see me I'll know what I'd like to pursue!</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+        
+        <div class="projects-grid">
+            <!-- Card 1 -->
+            <div class="card">
+                <img src="wavewave.png"></img>
+                <div class="card-content">
+                    <h3>Wave Wave</h3>
+                    <p>Wave Wave is my Chapter 2 project from Computer Programming I. This program is Geometry Dash inspired and takes inspiration from the wave gamemode specifically. The player can adjust their playing experience by using the up and down arrow keys to adjust the speed, the left and right arrow keys to adjust the difficulty, and the W and S keys to adjust the wave angle.</p>
+                    <a href="https://github.com/younes-bakir/Wave-Wave" class="btn">GitHub</a>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+                <img src="pokecomp3000.png"></img>
+                <div class="card-content">
+                    <h3>Pokemon-Comparisonatron-3000</h3>
+                    <p>The Pokemon-Comparisonatron-3000 is a program that allows the user to compare the stats of as many Pokemon as they'd like. It first asks the user to enter the number of Pokemon they want to view, and will then prompt for each of the Pokemons' names. The Pokemon stats are retrieved from PokeAPI endpoints for each Pokemon, and are then displayed to the user via a radar chart. The stats displayed are attack, defense, special attack, special defense, hp, and speed.</p>
+                    <a href="https://github.com/younes-bakir/Pokemon-Comparisonatron" class="btn">GitHub</a>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+                <img></img>
+                <div class="card-content">
+                    <h3>Skype Offline Session Patch</h3>
+                    <p>This program here is a bit different from other stuff I worked on, in which those projects were for in-class assignments. This here is something that came out of my own time. I wanted to work with the Skype community and attempt to revive one of the older clients. However, this was very difficult due to proprietary protocols and code encryptions, and eventually I decided to pivot to making my own client, which I also never finished. However, I did begin work on a web version of Skype that was included with Windows 8, in which all the code and assets are unencrypted and free to access, making reverse engineering and documentation a lot easier.</p>
+                    <a href="https://github.com/younes-bakir/skype-semi-patch/tree/main" class="btn">GitHub</a>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="card">
+                <img src="pokemonInvMan.png"></img>
+                <div class="card-content">
+                    <h3>Pokemon Inventory Manager</h3>
+                    <p>The Pokemon Inventory Manager is my Software Design final project. The program has five options: Add/Stack items, modify the quantity of an item, remove an item, view your current inventory, and exit. Users add items and the item's description data is retrieved from PokeAPI via the WinINet library, a windows internet library built into the operating system. It serves as an easy and accessible way for users to manage their visual Pokemon inventory, without having to open their bag in the game (essentially, you have two screens you're playing on).</p>
+                    <a href="https://github.com/younes-bakir/cppfinal/tree/main" class="btn">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
